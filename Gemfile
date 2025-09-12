@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
+gem "rails"
 gem "webrick" 
-gem "jekyll", "~> 4.2"
+gem "jekyll"
+gem "csv"
+gem 'github-pages'
