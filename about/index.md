@@ -5,4 +5,4 @@ title: About Me
 
 # About Me
   
-Write about yourself in markdown
+I will be writing about me soon... Kinda Shy

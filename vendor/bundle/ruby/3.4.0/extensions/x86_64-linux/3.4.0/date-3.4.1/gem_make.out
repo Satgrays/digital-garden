@@ -1,0 +1,24 @@
+current directory: /home/satgrays/GitHub/Satgrays.github.io/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+/usr/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with -Werror... yes
+checking for altzone in time.h with -Werror... no
+creating Makefile
+
+current directory: /home/satgrays/GitHub/Satgrays.github.io/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250912-41459-4zxjap sitelibdir\=./.gem.20250912-41459-4zxjap clean
+
+current directory: /home/satgrays/GitHub/Satgrays.github.io/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250912-41459-4zxjap sitelibdir\=./.gem.20250912-41459-4zxjap
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /home/satgrays/GitHub/Satgrays.github.io/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250912-41459-4zxjap sitelibdir\=./.gem.20250912-41459-4zxjap install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250912-41459-4zxjap
+
+current directory: /home/satgrays/GitHub/Satgrays.github.io/vendor/bundle/ruby/3.4.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250912-41459-4zxjap sitelibdir\=./.gem.20250912-41459-4zxjap clean

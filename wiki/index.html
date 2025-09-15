@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Personal Wiki / Digital Garden
+title: Satgrays Digital Garden
 ---
 	<h1>{{ page.title }}</h1>
 
-<p>This is my Personal Wiki/Digital Garden. </p>
+<p>This is my Personal Digital Garden. </p>
 
-<p>Notes importance guide: 🌱 < 🌿 < 🌻.<br>
-🌱: Stub or unimportant, 🌿: curious, usually a single idea, 🌻: interesting, more fleshed out, usually finished. </p>
+<p>Notes importance guide: 📄 < 💽 < 🖥️.<br>
+📄: Unimportant, 💽: curious 🖥️: interesting. </p>
 <div style = 'text-align:center;'>
 <!-- Html Elements for Search -->
 <input type="text" id="search-input" placeholder="Search the Wiki... (tag-based search)" style='font-size: 1.1rem;text-align:center;min-width:75%;'>
@@ -26,7 +26,7 @@ title: Personal Wiki / Digital Garden
 {% if item.path contains 'index' %}
 {% else %}
 <a href="{{ item.url }}" class="wiki-item" title="{{ item.description }}">
-{% if item.importance >= 7 %}🌻{% elsif item.importance >= 5 %}🌿{% else %}🌱
+{% if item.importance >= 7 %}🖥️{% elsif item.importance >= 5 %}💽{% else %}📄
 {% endif %} {{ item.title }}</a>
 {% endif %}
 {% endfor %}
@@ -35,8 +35,6 @@ title: Personal Wiki / Digital Garden
    
 </div>
 <br/>
-
-<p>Idea and code were taken from <a href='https://strikingloo.github.io/wiki/'>strikingloo's Digital Garden</a>. </p>
 
 
 <!-- Script pointing to search-script.js -->

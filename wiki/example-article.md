@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Your Title"
 date: 2022-01-01
 description: "A relevant description (Used for SEO and search)"
